@@ -78,15 +78,15 @@ def main():
     )
     line_image = draw_lines(image, lines)
 
-    # cv2.imshow('frame1', image)
+    cv2.imshow('frame1', image)
     # cv2.imshow('frame2', cropped_image)
     # cv2.waitKey(0)
     # image.release()
     # cv2.destroyAllWindows()
 
-    plt.figure()
-    plt.imshow(line_image)
-    plt.show()
+    # plt.figure()
+    # plt.imshow(line_image)
+    # plt.show()
 
 
 if __name__ == '__main__':
